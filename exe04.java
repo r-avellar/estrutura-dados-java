@@ -26,8 +26,7 @@ public class exe04 {
             int poem = (int) pilha2.push(tira);
         }
 
-        int a = (int) pilha2.pop();
-        System.out.println(a);
+        pilha2.pop();
 
         for (int i = 0; i < x-1; i++) {
             int tira = (int) pilha2.pop();
