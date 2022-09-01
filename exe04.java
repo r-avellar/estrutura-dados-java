@@ -28,6 +28,7 @@ public class exe04 {
             pilha2.push(pilha1.pop());
         }
         System.out.println("retirando numero....");
+
         pilha2.pop();
 
         for (int i = 0; i < x-1; i++) {
